@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#9E9E9E</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="editTextStyle">@style/custom_edit_text</item>
+        <item name="checkboxStyle">@style/custom_checkbox</item>
+    </style>
+
+</resources>

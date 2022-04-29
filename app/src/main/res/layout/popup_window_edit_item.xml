@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/background_with_outline"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/popup_window_add_item_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit item in list: "
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/popup_window_add_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title" />
+
+        <EditText
+            android:id="@+id/popup_window_add_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"/>
+
+        <Button
+            android:id="@+id/popup_window_add_item_btn"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_with_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit item"
+            android:onClick="editItemBtn"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
